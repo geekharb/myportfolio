@@ -1,7 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css",
+    "\\js",
     "\\works",
     "\\works\\data",
     "\\works\\data\\housing-price-prediction",
@@ -11,6 +11,6 @@
     "\\works\\spatial\\generative-urbanism",
     "\\works\\spatial\\generative-walkability"
   ],
-  "SelectedNode": "\\css\\style.css",
+  "SelectedNode": "\\works\\data\\housing-price-prediction\\index.html",
   "PreviewInSolutionExplorer": false
 }

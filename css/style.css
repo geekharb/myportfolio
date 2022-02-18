@@ -69,7 +69,7 @@ audio, canvas, video {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: none !important;
 	outline: none;
 	color: #008080;
 	transition-delay: 0s;

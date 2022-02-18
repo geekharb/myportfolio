@@ -58,6 +58,7 @@
                     <div>
                         <h2>Standardized Test Analysis</h2>
                         <p>Analysis of SAT and ACT performance against socio-demographic factors.</p>
+                        <p><a href="https://github.com/weihanfeng/California-Standardized-Test-Analysis" target="_blank">View the project on Github&nbsp;<i class="fa fa-external-link"></i></a></p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-7 p-3">
@@ -71,29 +72,24 @@
             </div>
 
             <section>
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Summary
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <iframe class="accordion-body" src="summary.html" width="100%" scrolling="no"></iframe>
-                        </div>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="summary-tab" data-bs-toggle="tab" data-bs-target="#summary" type="button" role="tab" aria-controls="summary" aria-selected="true">Summary</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="code-tab" data-bs-toggle="tab" data-bs-target="#code" type="button" role="tab" aria-controls="code" aria-selected="false">Working Code</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="summary" role="tabpanel" aria-labelledby="summary-tab">
+                        <iframe src="summary.html" width="100%" scrolling="no"></iframe>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Working Code
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <iframe class="accordion-body" src="working-code.html" width="100%" scrolling="no"></iframe>
-                        </div>
+                    <div class="tab-pane fade active" id="code" role="tabpanel" aria-labelledby="code-tab">
+                        <iframe src="working-code.html" width="100%" scrolling="no"></iframe>
                     </div>
                 </div>
             </section>
+
         </div>
         <ul class="breadcrumbs my-5">
             <li><a href="../../../">Home</a></li>
