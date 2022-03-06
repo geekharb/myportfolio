@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\js",
     "\\works",
     "\\works\\data",
     "\\works\\data\\housing-price-prediction",
+    "\\works\\data\\kickstarter-project-analysis",
     "\\works\\data\\standardized-test-analysis",
     "\\works\\spatial",
     "\\works\\spatial\\design-for-wind",
     "\\works\\spatial\\generative-urbanism",
     "\\works\\spatial\\generative-walkability"
   ],
-  "SelectedNode": "\\works\\data\\housing-price-prediction\\index.html",
+  "SelectedNode": "\\works\\data\\kickstarter-project-analysis\\index.html",
   "PreviewInSolutionExplorer": false
 }
