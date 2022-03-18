@@ -3,14 +3,14 @@
     "",
     "\\works",
     "\\works\\data",
-    "\\works\\data\\housing-price-prediction",
     "\\works\\data\\kickstarter-project-analysis",
+    "\\works\\data\\profoundness-classifier",
     "\\works\\data\\standardized-test-analysis",
     "\\works\\spatial",
     "\\works\\spatial\\design-for-wind",
     "\\works\\spatial\\generative-urbanism",
     "\\works\\spatial\\generative-walkability"
   ],
-  "SelectedNode": "\\works\\data\\kickstarter-project-analysis\\index.html",
+  "SelectedNode": "\\works\\data\\profoundness-classifier\\index.html",
   "PreviewInSolutionExplorer": false
 }
