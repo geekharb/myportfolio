@@ -79,14 +79,13 @@
                 </div>
             </div>
 
-            <div>
-                <iframe src="https://profoundornot.herokuapp.com/" class="pt-5 pb-5" frameborder="0" width="auto" height="100%"></iframe>
-            </div>
-            <br />
             <section>
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="visualisation-tab" data-bs-toggle="tab" data-bs-target="#visualisation" type="button" role="tab" aria-controls="visualisation" aria-selected="true">Visualisation</button>
+                        <button class="nav-link active" id="app-tab" data-bs-toggle="tab" data-bs-target="#app" type="button" role="tab" aria-controls="app" aria-selected="true">Web App</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="visualisation-tab" data-bs-toggle="tab" data-bs-target="#visualisation" type="button" role="tab" aria-controls="visualisation" aria-selected="true">Visualisation</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="summary-tab" data-bs-toggle="tab" data-bs-target="#summary" type="button" role="tab" aria-controls="summary" aria-selected="true">Summary</button>
@@ -96,7 +95,10 @@
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="visualisation" role="tabpanel" aria-labelledby="visualisation-tab">
+                    <div class="tab-pane fade show active" id="app" role="tabpanel" aria-labelledby="app-tab">
+                        <iframe src="https://profoundornot.herokuapp.com/" class="pt-5" frameborder="0" width="auto" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
+                    <div class="tab-pane fade active" id="visualisation" role="tabpanel" aria-labelledby="visualisation-tab">
                         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTO6lTel9Gj6LIlKAI61u_TBQU8grIyweWNhJAlUwLLSFPJmwiQRK_fl4z-jpl-VKvYpdmoo6IXFtw1/embed?start=true&loop=true&delayms=3000" class="pt-5" frameborder="0" width="auto" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                     </div>
                     <div class="tab-pane fade active" id="summary" role="tabpanel" aria-labelledby="summary-tab">
