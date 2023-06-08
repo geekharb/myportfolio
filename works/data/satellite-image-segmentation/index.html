@@ -65,7 +65,7 @@
                     <section>
                         <h4 class="mb-3">Project Synopsis</h4>
                         <p>
-                            The project seeks to apply a technique in computer vision, semantic segmentation, to satellite imagery. The goal is to divide a satellite image into distinct areas base on the objects, i.e. buldings, woodlands, road, etc, in the image. The model was trained on satellite images and corresponding labelled data on regions in Poland. Future explorations would include more representative training data sets in order to improve model generalizability.
+                            The project seeks to build an end-to-end workflow for a satellite image segmentation task. The workflow makes use of various CICD and deployment tools such as Github Actions, Docker, MLFlow. The model is deployed to an AWS EC2 instance and exposed via a FastAPI endpoint. For the model, the original UNet and a UNet with RESNET50 Backbone were explored and architectured with Pytorch framework. The model was trained on the LOVEDA dataset, which contains 8 classes of land covers.
                         </p>
                     </section>
                 </div>
@@ -76,16 +76,10 @@
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="summary-tab" data-bs-toggle="tab" data-bs-target="#summary" type="button" role="tab" aria-controls="summary" aria-selected="true">Summary</button>
                     </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="visualisation-tab" data-bs-toggle="tab" data-bs-target="#visualisation" type="button" role="tab" aria-controls="visualisation" aria-selected="true">Visualisation</button>
-                    </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="summary" role="tabpanel" aria-labelledby="summary-tab">
                         <iframe src="summary.html" width="100%" scrolling="no"></iframe>
-                    </div>
-                    <div class="tab-pane fade active" id="visualisation" role="tabpanel" aria-labelledby="visualisation-tab">
-                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQaRPMW3YrchALWIe-zwYwFeHGootl-yp9yRAn_wx_AV9W4DN4MKZhNg8hkTnZcXw/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                     </div>
                 </div>
             </section>
